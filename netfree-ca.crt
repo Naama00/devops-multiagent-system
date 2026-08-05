@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> NetFree  - התקנת תעודת אבטחה אחידה גירסה 2</title>
+        
+    
+        <link href="/inspinia/css/bootstrap-bi/bootstrap-rtl.min.css" rel="stylesheet">
+        <link href="/inspinia/css/style-rtl.css" rel="stylesheet">
+    
+
+        <link href="/inspinia/font-awesome/css/font-awesome.css?v=1" rel="stylesheet">
+        <link href="/inspinia/css/animate.css" rel="stylesheet">
+        
+
+        
+    
+    <style type="text/css">
+		
+		
+		.wiki {
+		    font-size: 109%;
+            text-align: justify;
+		}
+
+        .wiki h1.title-page {
+            margin-bottom: 30px;
+        }
+
+    
+        .wiki table.wikitable {
+            margin: 1em 0;
+            background-color: #f9f9f9;
+            border: 1px solid #aaa;
+            border-collapse: collapse;
+            color: #000
+        }
+    
+        .wiki table.wikitable > tr > th,.wiki table.wikitable > tr > td,table.wikitable > * > tr > th, .wiki table.wikitable > * > tr > td {
+            border: 1px solid #aaa;
+            padding: 0.2em 0.4em
+        }
+    
+        .wiki table.wikitable > tr > th, .wiki table.wikitable > * > tr > th {
+            background-color: #f2f2f2;
+            text-align: center
+        }
+    
+        .wiki table.wikitable > caption {
+            font-weight: bold
+        }
+
+        .wiki a.new {
+            color: rgba(165, 9, 9, 0.63);
+        }
+
+        .wiki .tleft {
+            float: left;
+        }
+
+        .wiki .tright {
+            float: right;
+        }
+        
+        .wiki .view-hidden {
+            display: none;
+        }
+        
+        .page-lang {
+            display: none;
+        }
+        
+        
+    </style>
+    
+
+        
+        <script type="text/javascript" src="/js/jquery/1.9.1/jquery.min.js"></script>
+        <script src="/inspinia/js/bootstrap/bootstrap.min.js"></script>
+        <script src="/js/angularjs/1.3.8/angular.min.js"></script> 
+    
+        
+        
+        <style type="text/css">
+            body{
+                background-color: white;
+            }
+        </style>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+          ga('create', 'UA-26532647-2', 'auto');
+          ga('send', 'pageview');
+</script>
+        <script type="text/javascript" >
+    if (!window._no_go_https && window.location.protocol == 'http:') {
+        var e = document.createElement("script"); 
+        e.src = "https://" + window.location.host + "/js/go-https.js"; 
+        document.head.appendChild(e);
+    }
+</script>
+    </head>
+    <body>
+        <div class="row border-bottom ng-scope" style="margin-bottom: 40px;">
+            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <a href="/" class="pull-end">
+                    <img src="/img/logo/netfree_logo.svg" alt="NetFree"  style="height: 40px; margin: 7px 40px;">
+                </a>
+            
+            
+                <div class="dropdown pull-start"  style="margin: 14px 30px;">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+                            
+                                Language
+                            
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/set-locale/he">עברית</a></li>
+                        <li><a href="/set-locale/en">English</a></li>
+                        <li><a href="/set-locale/yi">אידיש</a></li>
+                        <li><a href="/set-locale/es">Spanish</a></li>
+                        <li><a href="/set-locale/ru">Русский</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        
+
+<div id="section" class="container">
+    <p>
+        <div class="alert alert-warning" role="alert">
+            <b>
+                שימו לב!
+            </b>
+            התוכן בדף זה נכתב באופן שיתופי ע"י משתמשי נטפרי
+            לצפיה במקור
+            <a href="http://wiki.netfree.link/wiki/%D7%94%D7%AA%D7%A7%D7%A0%D7%AA_%D7%AA%D7%A2%D7%95%D7%93%D7%AA_%D7%90%D7%91%D7%98%D7%97%D7%94_%D7%90%D7%97%D7%99%D7%93%D7%94_%D7%92%D7%99%D7%A8%D7%A1%D7%94_2">
+               לחץ כאן 
+            </a>
+        </div>
+    </p>
+    
+    <div class="wiki">
+        <h1 class="title-page">
+            התקנת תעודת אבטחה אחידה גירסה 2
+        </h1>
+        <div class="content">
+            <div class="mw-parser-output"><p><span style="direction: rtl; float: left;" class="page-lang page-lang-en"> For English <a href="/wiki/Uniform_certificate_installer_2" title="Uniform certificate installer 2">click here</a> </span>
+</p><p><small class="dropdown-menu"><a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://netfree.link/wiki/%D7%94%D7%AA%D7%A7%D7%A0%D7%AA_%D7%AA%D7%A2%D7%95%D7%93%D7%AA_%D7%90%D7%91%D7%98%D7%97%D7%94_%D7%90%D7%97%D7%99%D7%93%D7%94_%D7%92%D7%99%D7%A8%D7%A1%D7%94_2">&#x5DC;&#x5DE;&#x5E2;&#x5D1;&#x5E8; &#x5DE;&#x5EA;&#x5E6;&#x5D5;&#x5D2;&#x5EA; &#x5E2;&#x5E8;&#x5D9;&#x5DB;&#x5D4; &#x5DC;&#x5EA;&#x5E6;&#x5D5;&#x5D2;&#x5EA; &#x5E7;&#x5E8;&#x5D9;&#x5D0;&#x5D4;</a></small>
+</p><p><small>
+<i><a href="/wiki/%D7%A2%D7%9E%D7%95%D7%93_%D7%A8%D7%90%D7%A9%D7%99" title="&#x5E2;&#x5DE;&#x5D5;&#x5D3; &#x5E8;&#x5D0;&#x5E9;&#x5D9;">&#x5E2;&#x5DE;&#x5D5;&#x5D3; &#x5E8;&#x5D0;&#x5E9;&#x5D9;</a></i> &gt; <i><a href="/wiki/%D7%AA%D7%A2%D7%95%D7%93%D7%AA_%D7%94%D7%90%D7%91%D7%98%D7%97%D7%94" title="&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5EA; &#x5D4;&#x5D0;&#x5D1;&#x5D8;&#x5D7;&#x5D4;">&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5EA; &#x5D4;&#x5D0;&#x5D1;&#x5D8;&#x5D7;&#x5D4;</a></i> &gt; <i><a href="/wiki/%D7%AA%D7%A2%D7%95%D7%93%D7%AA_%D7%90%D7%91%D7%98%D7%97%D7%94_%D7%90%D7%97%D7%99%D7%93%D7%94" title="&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5EA; &#x5D0;&#x5D1;&#x5D8;&#x5D7;&#x5D4; &#x5D0;&#x5D7;&#x5D9;&#x5D3;&#x5D4;">&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5EA; &#x5D0;&#x5D1;&#x5D8;&#x5D7;&#x5D4; &#x5D0;&#x5D7;&#x5D9;&#x5D3;&#x5D4;</a></i> &gt;   <i>&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5EA; &#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5EA; &#x5D0;&#x5D1;&#x5D8;&#x5D7;&#x5D4; &#x5D0;&#x5D7;&#x5D9;&#x5D3;&#x5D4; &#x5D2;&#x5D9;&#x5E8;&#x5E1;&#x5D4; 2</i>
+</small>
+</p><p><big><b>&#x5DE;&#x5D3;&#x5E8;&#x5D9;&#x5DB;&#x5D9; &#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4;:</b></big>
+</p>
+
+
+<h3><span id="&#x5DE;&#x5E2;&#x5E8;&#x5DB;&#x5EA;_&#x5D4;&#x5E4;&#x5E2;&#x5DC;&#x5D4;_Windows:"></span><span class="mw-headline" id=".D7.9E.D7.A2.D7.A8.D7.9B.D7.AA_.D7.94.D7.A4.D7.A2.D7.9C.D7.94_Windows:">&#x5DE;&#x5E2;&#x5E8;&#x5DB;&#x5EA; &#x5D4;&#x5E4;&#x5E2;&#x5DC;&#x5D4; Windows:</span></h3>
+<h4><span id="&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4;_&#x5D1;&#x5E6;&#x5D5;&#x5E8;&#x5D4;_&#x5E0;&#x5E4;&#x5D5;&#x5E6;&#x5D4;:"></span><span class="mw-headline" id=".D7.94.D7.AA.D7.A7.D7.A0.D7.94_.D7.91.D7.A6.D7.95.D7.A8.D7.94_.D7.A0.D7.A4.D7.95.D7.A6.D7.94:">&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4; &#x5D1;&#x5E6;&#x5D5;&#x5E8;&#x5D4; &#x5E0;&#x5E4;&#x5D5;&#x5E6;&#x5D4;:</span></h4>
+<p><a href="/wiki/%D7%94%D7%AA%D7%A7%D7%A0%D7%AA_%D7%AA%D7%A2%D7%95%D7%93%D7%94_%D7%A0%D7%A4%D7%95%D7%A6%D7%94" title="&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5EA; &#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5E0;&#x5E4;&#x5D5;&#x5E6;&#x5D4;">&#x5DC;&#x5D7;&#x5E6;&#x5D5; &#x5DB;&#x5D0;&#x5DF; &#x5DB;&#x5D3;&#x5D9; &#x5DC;&#x5D4;&#x5EA;&#x5E7;&#x5D9;&#x5DF; &#x5D0;&#x5EA; &#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5D1;&#x5E6;&#x5D5;&#x5E8;&#x5D4; &#x5D4;&#x5E0;&#x5E4;&#x5D5;&#x5E6;&#x5D4;</a>
+</p>
+<div class="alert alert-danger" role="alert" style="margin-top: 1rem; color: #842029; background-color: #f8d7da; border-color: #f5c2c7; position: relative; padding: 1rem 1rem; margin-bottom: 1rem; border: 1px solid transparent; border-radius: .25rem;">
+<p>&#x1F6A8;
+<strong></strong>  &#x5D9;&#x5E9; &#x5DC;&#x5D4;&#x5EA;&#x5E7;&#x5D9;&#x5DF; &#x5D0;&#x5EA; &#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5D1;&#x5DB;&#x5DC; &#x5DE;&#x5D7;&#x5E9;&#x5D1; &#x5E9;&#x5DE;&#x5D7;&#x5D5;&#x5D1;&#x5E8; &#x5DC;&#x5E0;&#x5D8;&#x5E4;&#x5E8;&#x5D9; &#x5D1;&#x5E4;&#x5E0;&#x5D9; &#x5E2;&#x5E6;&#x5DE;&#x5D5;!
+</p>
+</div>
+<p><br>
+</p>
+<h4><span id="&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4;_&#x5D9;&#x5D3;&#x5E0;&#x5D9;&#x5EA;:"></span><span class="mw-headline" id=".D7.94.D7.AA.D7.A7.D7.A0.D7.94_.D7.99.D7.93.D7.A0.D7.99.D7.AA:">&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4; &#x5D9;&#x5D3;&#x5E0;&#x5D9;&#x5EA;:</span></h4>
+<p>&#x5D1;&#x5DE;&#x5D9;&#x5D3;&#x5D4; &#x5D5;&#x5D4;&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4; &#x5D4;&#x5E8;&#x5D2;&#x5D9;&#x5DC;&#x5D4; &#x5DC;&#x5D0; &#x5E2;&#x5D5;&#x5D1;&#x5D3;&#x5EA;, &#x5D9;&#x5E9; &#x5DC;&#x5E0;&#x5E1;&#x5D5;&#x5EA; &#x5DC;&#x5D4;&#x5EA;&#x5E7;&#x5D9;&#x5DF; &#x5D9;&#x5D3;&#x5E0;&#x5D9;&#x5EA; &#x5D0;&#x5EA; &#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D5;&#x5EA;.<br>
+&#x5DC;&#x5E4;&#x5D9; &#x5D4;&#x5D4;&#x5D5;&#x5E8;&#x5D0;&#x5D5;&#x5EA; &#x5D1;&#x5DE;&#x5D3;&#x5E8;&#x5D9;&#x5DA; &#x5DC;&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5EA; &#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5D9;&#x5D3;&#x5E0;&#x5D9;&#x5EA;:<br>
+<a href="/wiki/%D7%94%D7%AA%D7%A7%D7%A0%D7%AA_%D7%AA%D7%A2%D7%95%D7%93%D7%94_%D7%99%D7%93%D7%A0%D7%99%D7%AA_%D7%91%D7%9E%D7%97%D7%A9%D7%91_-_%D7%97%D7%93%D7%A9_2" title="&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5EA; &#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5D9;&#x5D3;&#x5E0;&#x5D9;&#x5EA; &#x5D1;&#x5DE;&#x5D7;&#x5E9;&#x5D1; - &#x5D7;&#x5D3;&#x5E9; 2">&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5EA; &#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5D9;&#x5D3;&#x5E0;&#x5D9;&#x5EA; &#x5D1;&#x5DE;&#x5D7;&#x5E9;&#x5D1; - &#x5D7;&#x5D3;&#x5E9; 2</a>
+</p>
+<hr>
+<h3><span id="&#x5DC;&#x5D9;&#x5E0;&#x5D5;&#x5E7;&#x5E1;:"></span><span class="mw-headline" id=".D7.9C.D7.99.D7.A0.D7.95.D7.A7.D7.A1:">&#x5DC;&#x5D9;&#x5E0;&#x5D5;&#x5E7;&#x5E1;:</span></h3>
+<h4><span id="&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4;_&#x5DB;&#x5DC;&#x5DC;&#x5D9;&#x5EA;_&#x5D1;&#x5DC;&#x5D9;&#x5E0;&#x5D5;&#x5E7;&#x5E1;:"></span><span class="mw-headline" id=".D7.94.D7.AA.D7.A7.D7.A0.D7.94_.D7.9B.D7.9C.D7.9C.D7.99.D7.AA_.D7.91.D7.9C.D7.99.D7.A0.D7.95.D7.A7.D7.A1:">&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4; &#x5DB;&#x5DC;&#x5DC;&#x5D9;&#x5EA; &#x5D1;&#x5DC;&#x5D9;&#x5E0;&#x5D5;&#x5E7;&#x5E1;:</span></h4>
+<p>&#x5D9;&#x5E9; &#x5DC;&#x5D4;&#x5E9;&#x5EA;&#x5DE;&#x5E9; &#x5D1;&#x5E4;&#x5E7;&#x5D5;&#x5D3;&#x5D4; &#x5DE;&#x5D9;&#x5D5;&#x5D7;&#x5D3;&#x5EA; &#x5DC;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D5;&#x5EA; &#x5D0;&#x5DC;&#x5D5;:
+</p>
+<pre dir="ltr">curl -sL https://netfree.link/cacert/united/x2/unix.sh | sudo sh
+</pre>
+<p>&#x5DC;&#x5E4;&#x5E2;&#x5DE;&#x5D9;&#x5DD; &#x5D4;&#x5E4;&#x5E7;&#x5D5;&#x5D3;&#x5D4; <code>curl</code> &#x5DC;&#x5D0; &#x5E7;&#x5D9;&#x5D9;&#x5DE;&#x5EA; &#x5D1;&#x5DE;&#x5E2;&#x5E8;&#x5DB;&#x5EA;, &#x5D5;&#x5D1;&#x5DE;&#x5E7;&#x5E8;&#x5D4; &#x5DB;&#x5D6;&#x5D4; &#x5D4;&#x5E4;&#x5E7;&#x5D5;&#x5D3;&#x5D4; &#x5EA;&#x5D9;&#x5DB;&#x5E9;&#x5DC; &#x5E2;&#x5DD; &#x5DE;&#x5E1;&#x5E8;: <code>Command &apos;curl&apos; not found</code>. &#x5D4;&#x5E4;&#x5EA;&#x5E8;&#x5D5;&#x5DF; &#x5D4;&#x5D5;&#x5D0; &#x5DC;&#x5D4;&#x5EA;&#x5E7;&#x5D9;&#x5DF; curl &#x5E2;&quot;&#x5D9; &#x5D4;&#x5E4;&#x5E7;&#x5D5;&#x5D3;&#x5D4; &#x5D4;&#x5D1;&#x5D0;&#x5D4;:
+</p>
+<pre dir="ltr"> sudo sh -c &quot;(apt update &amp;&amp; apt install -y curl) || yum install -y curl || apk add curl&quot;
+</pre>
+<p>&#x5D5;&#x5D0;&#x5D7;&quot;&#x5DB; &#x5DC;&#x5D4;&#x5E8;&#x5D9;&#x5E5; &#x5E9;&#x5D5;&#x5D1; &#x5D0;&#x5EA; &#x5D4;&#x5E7;&#x5D5;&#x5D3;.
+</p>
+<h4><span id="&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4;_&#x5D1;&#x5D3;&#x5E4;&#x5D3;&#x5E4;&#x5DF;_&#x5DB;&#x5E8;&#x5D5;&#x5DD;,_&#x5D0;&#x5D3;&#x5D2;&apos;,_&#x5E4;&#x5D9;&#x5D9;&#x5E8;&#x5E4;&#x5D5;&#x5E7;&#x5E1;,_&#x5D1;&#x5DC;&#x5D9;&#x5E0;&#x5D5;&#x5E7;&#x5E1;:"></span><span class="mw-headline" id=".D7.94.D7.AA.D7.A7.D7.A0.D7.94_.D7.91.D7.93.D7.A4.D7.93.D7.A4.D7.9F_.D7.9B.D7.A8.D7.95.D7.9D.2C_.D7.90.D7.93.D7.92.27.2C_.D7.A4.D7.99.D7.99.D7.A8.D7.A4.D7.95.D7.A7.D7.A1.2C_.D7.91.D7.9C.D7.99.D7.A0.D7.95.D7.A7.D7.A1:">&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4; &#x5D1;&#x5D3;&#x5E4;&#x5D3;&#x5E4;&#x5DF; &#x5DB;&#x5E8;&#x5D5;&#x5DD;, &#x5D0;&#x5D3;&#x5D2;&apos;, &#x5E4;&#x5D9;&#x5D9;&#x5E8;&#x5E4;&#x5D5;&#x5E7;&#x5E1;, &#x5D1;&#x5DC;&#x5D9;&#x5E0;&#x5D5;&#x5E7;&#x5E1;:</span></h4>
+<p>&#x5D9;&#x5E9; &#x5DC;&#x5E4;&#x5E2;&#x5D5;&#x5DC; &#x5DC;&#x5E4;&#x5D9; &#x5D4;&#x5DE;&#x5D3;&#x5E8;&#x5D9;&#x5DB;&#x5D9;&#x5DD; &#x5D4;&#x5E8;&#x5D2;&#x5D9;&#x5DC;&#x5D9;&#x5DD;, <br>
+<a href="/wiki/%D7%94%D7%AA%D7%A7%D7%A0%D7%AA_%D7%AA%D7%A2%D7%95%D7%93%D7%94_%D7%91%D7%93%D7%A4%D7%93%D7%A4%D7%9F_%D7%9B%D7%A8%D7%95%D7%9D_%D7%91%D7%9C%D7%99%D7%A0%D7%95%D7%A7%D7%A1" title="&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5EA; &#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5D1;&#x5D3;&#x5E4;&#x5D3;&#x5E4;&#x5DF; &#x5DB;&#x5E8;&#x5D5;&#x5DD; &#x5D1;&#x5DC;&#x5D9;&#x5E0;&#x5D5;&#x5E7;&#x5E1;">&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5EA; &#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5D1;&#x5D3;&#x5E4;&#x5D3;&#x5E4;&#x5DF; &#x5DB;&#x5E8;&#x5D5;&#x5DD; &#x5D1;&#x5DC;&#x5D9;&#x5E0;&#x5D5;&#x5E7;&#x5E1;</a><br>
+<a href="/wiki/%D7%94%D7%AA%D7%A7%D7%A0%D7%AA_%D7%AA%D7%A2%D7%95%D7%93%D7%94_%D7%91%D7%93%D7%A4%D7%93%D7%A4%D7%9F_%D7%A4%D7%99%D7%99%D7%A8%D7%A4%D7%95%D7%A7%D7%A1_%D7%91%D7%9C%D7%99%D7%A0%D7%95%D7%A7%D7%A1" class="mw-redirect" title="&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5EA; &#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5D1;&#x5D3;&#x5E4;&#x5D3;&#x5E4;&#x5DF; &#x5E4;&#x5D9;&#x5D9;&#x5E8;&#x5E4;&#x5D5;&#x5E7;&#x5E1; &#x5D1;&#x5DC;&#x5D9;&#x5E0;&#x5D5;&#x5E7;&#x5E1;">&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5EA; &#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5D1;&#x5D3;&#x5E4;&#x5D3;&#x5E4;&#x5DF; &#x5E4;&#x5D9;&#x5D9;&#x5E8;&#x5E4;&#x5D5;&#x5E7;&#x5E1; &#x5D1;&#x5DC;&#x5D9;&#x5E0;&#x5D5;&#x5E7;&#x5E1;</a><br>
+<a href="/wiki/Microsoft_Edge_%D7%91%D7%9C%D7%99%D7%A0%D7%95%D7%A7%D7%A1" title="Microsoft Edge &#x5D1;&#x5DC;&#x5D9;&#x5E0;&#x5D5;&#x5E7;&#x5E1;">Microsoft Edge &#x5D1;&#x5DC;&#x5D9;&#x5E0;&#x5D5;&#x5E7;&#x5E1;</a><br>
+&#x5D0;&#x5DC;&#x5D0; &#x5E9;&#x5D9;&#x5E9; &#x5DC;&#x5D4;&#x5EA;&#x5E7;&#x5D9;&#x5DF; &#x5D0;&#x5EA; &#x5DB;&#x5DC; 5 &#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D5;&#x5EA; &#x5DE;&#x5D4;<a href="#.D7.A8.D7.A9.D7.99.D7.9E.D7.AA_.D7.94.D7.AA.D7.A2.D7.95.D7.93.D7.95.D7.AA:">&#x5E8;&#x5E9;&#x5D9;&#x5DE;&#x5D4; &#x5DC;&#x5D4;&#x5DC;&#x5DF;</a>, &#x5D5;&#x5DC;&#x5D0; &#x5DE;&#x5D4;&#x5E7;&#x5D9;&#x5E9;&#x5D5;&#x5E8; &#x5D4;&#x5E8;&#x5D2;&#x5D9;&#x5DC; &#x5D4;&#x5DE;&#x5D5;&#x5E4;&#x5D9;&#x5E2; &#x5D1;&#x5DE;&#x5D3;&#x5E8;&#x5D9;&#x5DA;.<br>
+<b>&#x5DC;&#x5D0;&#x5D7;&#x5E8; &#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5EA; &#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5D1;&#x5DE;&#x5E2;&#x5E8;&#x5DB;&#x5EA; &#x5D4;&#x5D4;&#x5E4;&#x5E2;&#x5DC;&#x5D4; &#x5E2;&quot;&#x5D9; &#x5D4;&#x5E4;&#x5E7;&#x5D5;&#x5D3;&#x5D4; &#x5D4;&#x5DB;&#x5DC;&#x5DC;&#x5D9;&#x5EA; &#x5DC;&#x5DC;&#x5D9;&#x5E0;&#x5D5;&#x5E7;&#x5E1; &#x5E9;&#x5DE;&#x5D5;&#x5E4;&#x5D9;&#x5E2;&#x5D4; &#x5DC;&#x5DE;&#x5E2;&#x5DC;&#x5D4;, &#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D5;&#x5EA; &#x5D0;&#x5DE;&#x5D5;&#x5E8;&#x5D5;&#x5EA; &#x5DC;&#x5D4;&#x5D5;&#x5E4;&#x5D9;&#x5E2;&#x5D4; &#x5D1;&#x5EA;&#x5D9;&#x5E7;&#x5D9;&#x5D4; /opt/netfree/ca/<br></b>
+<b>&#x5D2;&#x5DD; &#x5DB;&#x5E7;&#x5D5;&#x5D1;&#x5E5; &#x5D1;&#x5D0;&#x5E0;&#x5D3;&#x5DC; &#x5E9;&#x5DC; 5 &#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D5;&#x5EA; /opt/netfree/ca/united-x2.crt. &#x5D5;&#x5D2;&#x5DD; &#x5DB;&#x5E7;&#x5D1;&#x5E6;&#x5D9;&#x5DD; &#x5E0;&#x5E4;&#x5E8;&#x5D3;&#x5D9;&#x5DD; &#x5D1;&#x5EA;&#x5D9;&#x5E7;&#x5D9;&#x5D4; /opt/netfree/ca/list/.</b>
+</p>
+<h4><span id="&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4;_&#x5D1;&#x5D3;&#x5D5;&#x5E7;&#x5E8;:"></span><span class="mw-headline" id=".D7.94.D7.AA.D7.A7.D7.A0.D7.94_.D7.91.D7.93.D7.95.D7.A7.D7.A8:">&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4; &#x5D1;&#x5D3;&#x5D5;&#x5E7;&#x5E8;:</span></h4>
+<p>&#x5D9;&#x5E9; &#x5DC;&#x5E4;&#x5E2;&#x5D5;&#x5DC; &#x5DC;&#x5E4;&#x5D9; &#x5D4;&#x5DE;&#x5D3;&#x5E8;&#x5D9;&#x5DA; &#x5D4;&#x5E8;&#x5D2;&#x5D9;&#x5DC; <a href="/wiki/%D7%94%D7%AA%D7%A7%D7%A0%D7%AA_%D7%AA%D7%A2%D7%95%D7%93%D7%94_%D7%91-Docker" title="&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5EA; &#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5D1;-Docker">&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5EA; &#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5D1;-Docker</a>
+&#x5D0;&#x5DC;&#x5D0; &#x5E9;&#x5D9;&#x5E9; &#x5DC;&#x5E9;&#x5E0;&#x5D5;&#x5EA; &#x5D0;&#x5EA; &#x5D4;&#x5DB;&#x5EA;&#x5D5;&#x5D1;&#x5EA; &#x5DE;&#x5DE;&#x5E0;&#x5D4; &#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5DE;&#x5D5;&#x5EA;&#x5E7;&#x5E0;&#x5EA;, &#x5DC;:
+</p>
+<pre><a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://netfree.link/cacert/united/x2/unix.sh">https://netfree.link/cacert/united/x2/unix.sh</a>
+</pre>
+<h5><span class="mw-headline" id="Minikube:">Minikube:</span></h5>
+<p>&#x5D9;&#x5E9; &#x5DC;&#x5D4;&#x5E9;&#x5EA;&#x5DE;&#x5E9; &#x5D1;&#x5E4;&#x5E7;&#x5D5;&#x5D3;&#x5D5;&#x5EA; &#x5DB;&#x5D3;&#x5DC;&#x5D4;&#x5DC;&#x5DF;:
+</p>
+<pre>minikube ssh
+curl -sL &lt;&#x5D0;&#x5D9;&#x5DF; &#x5E2;&#x5D3;&#x5D9;&#x5D9;&#x5DF; &#x5E7;&#x5D9;&#x5E9;&#x5D5;&#x5E8;&gt; | sudo -E bash -
+sudo /etc/init.d/docker restart
+exit
+</pre>
+<hr>
+<h3><span id="&#x5DE;&#x5D7;&#x5E9;&#x5D1;&#x5D9;_&#x5DE;&#x5D0;&#x5E7;_-_MAC:"></span><span class="mw-headline" id=".D7.9E.D7.97.D7.A9.D7.91.D7.99_.D7.9E.D7.90.D7.A7_-_MAC:">&#x5DE;&#x5D7;&#x5E9;&#x5D1;&#x5D9; &#x5DE;&#x5D0;&#x5E7; - MAC:</span></h3>
+<p>&#x5D7;&#x5E4;&#x5E9;&#x5D5; &#x5D1;&#x5DE;&#x5D7;&#x5E9;&#x5D1; &#x5D9;&#x5D9;&#x5E9;&#x5D5;&#x5DD; &#x5D1;&#x5E9;&#x5DD; &quot;&#x5DE;&#x5E1;&#x5D5;&#x5E3;&quot; [terminal] &#x5E4;&#x5EA;&#x5D7;&#x5D5; &#x5D0;&#x5D5;&#x5EA;&#x5D5; &#x5D5;&#x5D4;&#x5D3;&#x5D1;&#x5D9;&#x5E7;&#x5D5; &#x5DC;&#x5EA;&#x5D5;&#x5DB;&#x5D5; &#x5D0;&#x5EA; &#x5D4;&#x5E4;&#x5E7;&#x5D5;&#x5D3;&#x5D4; &#x5D4;&#x5D1;&#x5D0;&#x5D4;:
+</p>
+<pre dir="ltr">curl -sL https://netfree.link/cacert/united/x2/macos.zsh | sudo zsh
+</pre>
+<p>&#x5D0;&#x5D5;
+</p>
+<pre dir="ltr">curl -sL https://netfree.link/cacert/united/x2/macos.zsh | zsh
+</pre>
+<hr>
+<p>&#x5DC;&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5EA; &#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5D1;&#x5EA;&#x5D5;&#x5DB;&#x5E0;&#x5D5;&#x5EA; &#x5D4;&#x5E9;&#x5D5;&#x5E0;&#x5D5;&#x5EA; &#x5E9;&#x5D0;&#x5D9;&#x5E0;&#x5DF; &#x5E1;&#x5D5;&#x5DE;&#x5DB;&#x5D5;&#x5EA; &#x5E2;&#x5DC; &#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D5;&#x5EA; &#x5E9;&#x5DC; &#x5DE;&#x5E2;&#x5E8;&#x5DB;&#x5EA; &#x5D4;&#x5D4;&#x5E4;&#x5E2;&#x5DC;&#x5D4;,<br>
+&#x5D9;&#x5E9; &#x5DC;&#x5D4;&#x5EA;&#x5E7;&#x5D9;&#x5DF; &#x5DC;&#x5E4;&#x5D9; &#x5D4;&#x5DE;&#x5D3;&#x5E8;&#x5D9;&#x5DB;&#x5D9;&#x5DD; &#x5D4;&#x5DE;&#x5D5;&#x5E4;&#x5D9;&#x5E2;&#x5D9;&#x5DD; &#x5DB;&#x5D0;&#x5DF; <a href="/wiki/%D7%AA%D7%A2%D7%95%D7%93%D7%AA_%D7%94%D7%90%D7%91%D7%98%D7%97%D7%94" title="&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5EA; &#x5D4;&#x5D0;&#x5D1;&#x5D8;&#x5D7;&#x5D4;">&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5EA; &#x5D4;&#x5D0;&#x5D1;&#x5D8;&#x5D7;&#x5D4;</a><br>
+&#x5D0;&#x5DC;&#x5D0; &#x5E9;&#x5D9;&#x5E9; &#x5DC;&#x5D4;&#x5EA;&#x5E7;&#x5D9;&#x5DF; &#x5D0;&#x5EA; &#x5DB;&#x5DC; 5 &#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D5;&#x5EA; &#x5DE;&#x5D4;<a href="#.D7.A8.D7.A9.D7.99.D7.9E.D7.AA_.D7.94.D7.AA.D7.A2.D7.95.D7.93.D7.95.D7.AA:">&#x5E8;&#x5E9;&#x5D9;&#x5DE;&#x5D4; &#x5DC;&#x5D4;&#x5DC;&#x5DF;</a>, &#x5D5;&#x5DC;&#x5D0; &#x5DE;&#x5D4;&#x5E7;&#x5D9;&#x5E9;&#x5D5;&#x5E8; &#x5D4;&#x5E8;&#x5D2;&#x5D9;&#x5DC; &#x5D4;&#x5DE;&#x5D5;&#x5E4;&#x5D9;&#x5E2; &#x5D1;&#x5DE;&#x5D3;&#x5E8;&#x5D9;&#x5DA;.<br>
+<b>&#x5DC;&#x5D0;&#x5D7;&#x5E8; &#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5EA; &#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5D1;&#x5DE;&#x5E2;&#x5E8;&#x5DB;&#x5EA; &#x5D4;&#x5D4;&#x5E4;&#x5E2;&#x5DC;&#x5D4;  &#x5E2;&quot;&#x5D9; &#x5D4;&#x5E4;&#x5E7;&#x5D5;&#x5D3;&#x5D4; &#x5D4;&#x5DE;&#x5D5;&#x5E4;&#x5D9;&#x5E2;&#x5D4; &#x5DC;&#x5DE;&#x5E2;&#x5DC;&#x5D4;, &#x5D0;&#x5DE;&#x5D5;&#x5E8; &#x5DC;&#x5D4;&#x5D9;&#x5D5;&#x5D5;&#x5E6;&#x5E8; &#x5E7;&#x5D5;&#x5D1;&#x5E5; &#x5D1;&#x5D0;&#x5E0;&#x5D3;&#x5DC; &#x5E9;&#x5DC; 5 &#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D5;&#x5EA; &#x5D1;&#x5DE;&#x5D7;&#x5E9;&#x5D1; - /opt/netfree/ca/united-x2.crt .</b>
+</p>
+<h3><span id="&#x5D0;&#x5E0;&#x5D3;&#x5E8;&#x5D5;&#x5D0;&#x5D9;&#x5D3;_&#x5D5;&#x5D0;&#x5D9;&#x5DE;&#x5D5;&#x5DC;&#x5D8;&#x5D5;&#x5E8;&#x5D9;&#x5DD;:"></span><span class="mw-headline" id=".D7.90.D7.A0.D7.93.D7.A8.D7.95.D7.90.D7.99.D7.93_.D7.95.D7.90.D7.99.D7.9E.D7.95.D7.9C.D7.98.D7.95.D7.A8.D7.99.D7.9D:">&#x5D0;&#x5E0;&#x5D3;&#x5E8;&#x5D5;&#x5D0;&#x5D9;&#x5D3; &#x5D5;&#x5D0;&#x5D9;&#x5DE;&#x5D5;&#x5DC;&#x5D8;&#x5D5;&#x5E8;&#x5D9;&#x5DD;:</span></h3>
+<h4><span id="&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4;_&#x5D1;&#x5D3;&#x5E8;&#x5DA;_&#x5D4;&#x5E4;&#x5E9;&#x5D5;&#x5D8;&#x5D4;:"></span><span class="mw-headline" id=".D7.94.D7.AA.D7.A7.D7.A0.D7.94_.D7.91.D7.93.D7.A8.D7.9A_.D7.94.D7.A4.D7.A9.D7.95.D7.98.D7.94:">&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4; &#x5D1;&#x5D3;&#x5E8;&#x5DA; &#x5D4;&#x5E4;&#x5E9;&#x5D5;&#x5D8;&#x5D4;:</span></h4>
+<p>&#x5D9;&#x5E9; &#x5DC;&#x5D4;&#x5EA;&#x5E7;&#x5D9;&#x5DF; &#x5DC;&#x5E4;&#x5D9; &#x5D4;&#x5DE;&#x5D3;&#x5E8;&#x5D9;&#x5DB;&#x5D9;&#x5DD; &#x5D4;&#x5DE;&#x5D5;&#x5E4;&#x5D9;&#x5E2;&#x5D9;&#x5DD; &#x5DB;&#x5D0;&#x5DF; <a href="/wiki/%D7%AA%D7%A2%D7%95%D7%93%D7%AA_%D7%94%D7%90%D7%91%D7%98%D7%97%D7%94" title="&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5EA; &#x5D4;&#x5D0;&#x5D1;&#x5D8;&#x5D7;&#x5D4;">&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5EA; &#x5D4;&#x5D0;&#x5D1;&#x5D8;&#x5D7;&#x5D4;</a><br>
+&#x5D0;&#x5DC;&#x5D0; &#x5E9;&#x5D9;&#x5E9; &#x5DC;&#x5D4;&#x5EA;&#x5E7;&#x5D9;&#x5DF; &#x5D0;&#x5EA; &#x5DB;&#x5DC; 5 &#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D5;&#x5EA; &#x5DE;&#x5D4;<a href="#.D7.A8.D7.A9.D7.99.D7.9E.D7.AA_.D7.94.D7.AA.D7.A2.D7.95.D7.93.D7.95.D7.AA:">&#x5E8;&#x5E9;&#x5D9;&#x5DE;&#x5D4; &#x5DC;&#x5D4;&#x5DC;&#x5DF;</a>, &#x5D5;&#x5DC;&#x5D0; &#x5DE;&#x5D4;&#x5E7;&#x5D9;&#x5E9;&#x5D5;&#x5E8; &#x5D4;&#x5E8;&#x5D2;&#x5D9;&#x5DC; &#x5D4;&#x5DE;&#x5D5;&#x5E4;&#x5D9;&#x5E2; &#x5D1;&#x5DE;&#x5D3;&#x5E8;&#x5D9;&#x5DA;.<br>
+</p><p><br>
+</p>
+<h4><span id="&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4;_&#x5D1;&#x5D0;&#x5D9;&#x5DE;&#x5D5;&#x5DC;&#x5D8;&#x5D5;&#x5E8;&#x5D9;&#x5DD;_&#x5D5;&#x5D0;&#x5E0;&#x5D3;&#x5E8;&#x5D5;&#x5D0;&#x5D9;&#x5D3;_&#x5E2;&#x5DD;_&#x5D4;&#x5E8;&#x5E9;&#x5D0;&#x5D5;&#x5EA;_ROOT:"></span><span class="mw-headline" id=".D7.94.D7.AA.D7.A7.D7.A0.D7.94_.D7.91.D7.90.D7.99.D7.9E.D7.95.D7.9C.D7.98.D7.95.D7.A8.D7.99.D7.9D_.D7.95.D7.90.D7.A0.D7.93.D7.A8.D7.95.D7.90.D7.99.D7.93_.D7.A2.D7.9D_.D7.94.D7.A8.D7.A9.D7.90.D7.95.D7.AA_ROOT:">&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4; &#x5D1;&#x5D0;&#x5D9;&#x5DE;&#x5D5;&#x5DC;&#x5D8;&#x5D5;&#x5E8;&#x5D9;&#x5DD; &#x5D5;&#x5D0;&#x5E0;&#x5D3;&#x5E8;&#x5D5;&#x5D0;&#x5D9;&#x5D3; &#x5E2;&#x5DD; &#x5D4;&#x5E8;&#x5E9;&#x5D0;&#x5D5;&#x5EA; ROOT:</span></h4>
+<h5><span id="&#x5E9;&#x5D9;&#x5DE;&#x5D5;&#x5E9;_&#x5D1;&#x5DE;&#x5D5;&#x5D3;&#x5D5;&#x5DC;_&#x5DE;&#x5D2;&apos;&#x5D9;&#x5E1;&#x5E7;_Magisk:"></span><span class="mw-headline" id=".D7.A9.D7.99.D7.9E.D7.95.D7.A9_.D7.91.D7.9E.D7.95.D7.93.D7.95.D7.9C_.D7.9E.D7.92.27.D7.99.D7.A1.D7.A7_Magisk:">&#x5E9;&#x5D9;&#x5DE;&#x5D5;&#x5E9; &#x5D1;&#x5DE;&#x5D5;&#x5D3;&#x5D5;&#x5DC; &#x5DE;&#x5D2;&apos;&#x5D9;&#x5E1;&#x5E7; Magisk:</span></h5>
+<p>&#x5D0;&#x5DD; &#x5D4;&#x5E0;&#x5DB;&#x5DD; &#x5DE;&#x5E9;&#x5EA;&#x5DE;&#x5E9;&#x5D9;&#x5DD; &#x5D1;&#x5DE;&#x5D5;&#x5D3;&#x5D5;&#x5DC; &#x5E9;&#x5DC; &#x5DE;&#x5D2;&apos;&#x5D9;&#x5E1;&#x5E7; &#x5E2;&#x5D1;&#x5D5;&#x5E8; &#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D5;&#x5EA; &#x5D4;&#x5D0;&#x5D1;&#x5D8;&#x5D7;&#x5D4;, &#x5D5;&#x5D1;&#x5E8;&#x5E9;&#x5D5;&#x5EA;&#x5DB;&#x5DD; &#x5D0;&#x5E0;&#x5D3;&#x5E8;&#x5D5;&#x5D0;&#x5D9;&#x5D3; &#x5E0;&#x5DE;&#x5D5;&#x5DA; &#x5DE;&#x5D2;&#x5E8;&#x5E1;&#x5D4; 14.0 &#x5D9;&#x5E9; &#x5DC;&#x5D4;&#x5D5;&#x5E8;&#x5D9;&#x5D3; &#x5D0;&#x5EA; &#x5D4;&#x5D2;&#x5E8;&#x5E1;&#x5D4; &#x5D4;&#x5D7;&#x5D3;&#x5E9;&#x5D4; &#x5E9;&#x5DC; &#x5D4;&#x5DE;&#x5D5;&#x5D3;&#x5D5;&#x5DC; (&#x5DE;&#x5DB;&#x5D0;&#x5DF;)<a target="_blank" rel="nofollow noreferrer noopener" class="external autonumber" href="https://github.com/Sivan22/ca-netfree/releases/download/v7.0/Netfree-unified-cert-v2.zip">[1]</a>, &#x5DC;&#x5D4;&#x5D9;&#x5DB;&#x5E0;&#x5E1; &#x5DC;&#x5D0;&#x5E4;&#x5DC;&#x5D9;&#x5E7;&#x5E6;&#x5D9;&#x5D9;&#x5EA; &#x5DE;&#x5D2;&apos;&#x5D9;&#x5E1;&#x5E7; -&gt; &#x5DE;&#x5D5;&#x5D3;&#x5D5;&#x5DC;&#x5D9;&#x5DD;, &#x5DC;&#x5D4;&#x5E1;&#x5D9;&#x5E8; &#x5D0;&#x5EA; &#x5D4;&#x5DE;&#x5D5;&#x5D3;&#x5D5;&#x5DC; &#x5D4;&#x5E7;&#x5D9;&#x5D9;&#x5DD;. &#x5DC;&#x5D0;&#x5D7;&#x5E8; &#x5DE;&#x5DB;&#x5DF; &#x5DC;&#x5D4;&#x5EA;&#x5E7;&#x5D9;&#x5DF; &#x5DE;&#x5D0;&#x5D7;&#x5E1;&#x5D5;&#x5DF; &#x5D0;&#x5EA; &#x5D4;&#x5E7;&#x5D5;&#x5D1;&#x5E5; &#x5E9;&#x5D4;&#x5D5;&#x5E8;&#x5D3;&#x5E0;&#x5D5;, &#x5D5;&#x5DC;&#x5D4;&#x5E4;&#x5E2;&#x5D9;&#x5DC; &#x5DE;&#x5D7;&#x5D3;&#x5E9; &#x5D0;&#x5EA; &#x5D4;&#x5DE;&#x5DB;&#x5E9;&#x5D9;&#x5E8;.
+</p><p>&#x5D0;&#x5DD; &#x5D1;&#x5E8;&#x5E9;&#x5D5;&#x5EA;&#x5DB;&#x5DD; &#x5DE;&#x5DB;&#x5E9;&#x5D9;&#x5E8; &#x5D0;&#x5E0;&#x5D3;&#x5E8;&#x5D5;&#x5D0;&#x5D9;&#x5D3; &#x5D2;&#x5E8;&#x5E1;&#x5D4; 14.0 &#x5D5;&#x5DE;&#x5E2;&#x5DC;&#x5D4;, &#x5D9;&#x5E9; &#x5DC;&#x5D4;&#x5D5;&#x5E8;&#x5D9;&#x5D3; &#x5D0;&#x5EA; &#x5D4;&#x5E7;&#x5D5;&#x5D1;&#x5E5; (&#x5D4;&#x5D6;&#x5D4;)<a target="_blank" rel="nofollow noreferrer noopener" class="external autonumber" href="https://github.com/Sivan22/ca-netfree/releases/download/v6.0/Netfree-Root-CAs.zip">[2]</a>, &#x5D5;&#x5DC;&#x5E4;&#x5E2;&#x5D5;&#x5DC; &#x5DC;&#x5E4;&#x5D9; &#x5D4;&#x5D4;&#x5D5;&#x5E8;&#x5D0;&#x5D5;&#x5EA; &#x5DC;&#x5E2;&#x5D9;&#x5DC;.
+</p>
+<h5><span id="&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4;_&#x5D9;&#x5D3;&#x5E0;&#x5D9;&#x5EA;:_2"></span><span class="mw-headline" id=".D7.94.D7.AA.D7.A7.D7.A0.D7.94_.D7.99.D7.93.D7.A0.D7.99.D7.AA:_2">&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4; &#x5D9;&#x5D3;&#x5E0;&#x5D9;&#x5EA;:</span></h5>
+<p>&#x5D9;&#x5E9; &#x5DC;&#x5D4;&#x5D5;&#x5E8;&#x5D9;&#x5D3; &#x5D0;&#x5EA; &#x5D4;&#x5E7;&#x5D5;&#x5D1;&#x5E5; &#x5D3;&#x5DC;&#x5D4;&#x5DC;&#x5DF;, &#x5D5;&#x5DC;&#x5D7;&#x5DC;&#x5E5; &#x5DE;&#x5DE;&#x5E0;&#x5D5; &#x5D0;&#x5EA; 5 &#x5D4;&#x5E7;&#x5D1;&#x5E6;&#x5D9;&#x5DD;:<br>
+<a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://netfree.link/cacert/united/x2/android.zip">https://netfree.link/cacert/united/x2/android.zip</a>
+</p><p>&#x5DC;&#x5D4;&#x5DB;&#x5E0;&#x5D9;&#x5E1; &#x5D0;&#x5D5;&#x5EA;&#x5DD; &#x5DC;&#x5E0;&#x5EA;&#x5D9;&#x5D1; &#x5E9;&#x5DC; &#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D5;&#x5EA; &#x5D4;&#x5DE;&#x5E2;&#x5E8;&#x5DB;&#x5EA; (&#x5D1;&#x5D3;&#x5E8;&#x5DA; &#x5DB;&#x5DC;&#x5DC; system/etc/security/cacerts/)
+</p>
+<hr>
+<h3><span id="&#x5E8;&#x5E9;&#x5D9;&#x5DE;&#x5EA;_&#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D5;&#x5EA;:"></span><span class="mw-headline" id=".D7.A8.D7.A9.D7.99.D7.9E.D7.AA_.D7.94.D7.AA.D7.A2.D7.95.D7.93.D7.95.D7.AA:">&#x5E8;&#x5E9;&#x5D9;&#x5DE;&#x5EA; &#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D5;&#x5EA;:</span></h3>
+<p><a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://netfree.link/cacert/united/x2/root_ca_x2_rsa.crt">https://netfree.link/cacert/united/x2/root_ca_x2_rsa.crt</a> <br>
+<a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://netfree.link/cacert/united/x2/root_ca_x2_ed25519.crt">https://netfree.link/cacert/united/x2/root_ca_x2_ed25519.crt</a> <br>
+<a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://netfree.link/cacert/united/x2/root_ca_x2_prime256v1.crt">https://netfree.link/cacert/united/x2/root_ca_x2_prime256v1.crt</a> <br>
+<a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://netfree.link/cacert/united/x2/root_ca_x2_secp384r1.crt">https://netfree.link/cacert/united/x2/root_ca_x2_secp384r1.crt</a> <br>
+<a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://netfree.link/cacert/united/x2/root_ca_x2_rsa_2037.crt">https://netfree.link/cacert/united/x2/root_ca_x2_rsa_2037.crt</a> <br>
+</p><p><br>
+</p>
+<h4><span id="&#x5E7;&#x5D5;&#x5D1;&#x5E5;_bundle_&#x5E9;&#x5DC;_&#x5DB;&#x5DC;_&#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D5;&#x5EA;_&#x5E2;&#x5D1;&#x5D5;&#x5E8;_&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4;_&#x5D1;&#x5EA;&#x5D5;&#x5DB;&#x5E0;&#x5D5;&#x5EA;_&#x5E9;&#x5D5;&#x5E0;&#x5D5;&#x5EA;:"></span><span class="mw-headline" id=".D7.A7.D7.95.D7.91.D7.A5_bundle_.D7.A9.D7.9C_.D7.9B.D7.9C_.D7.94.D7.AA.D7.A2.D7.95.D7.93.D7.95.D7.AA_.D7.A2.D7.91.D7.95.D7.A8_.D7.94.D7.AA.D7.A7.D7.A0.D7.94_.D7.91.D7.AA.D7.95.D7.9B.D7.A0.D7.95.D7.AA_.D7.A9.D7.95.D7.A0.D7.95.D7.AA:">&#x5E7;&#x5D5;&#x5D1;&#x5E5; bundle &#x5E9;&#x5DC; &#x5DB;&#x5DC; &#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D5;&#x5EA; &#x5E2;&#x5D1;&#x5D5;&#x5E8; &#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4; &#x5D1;&#x5EA;&#x5D5;&#x5DB;&#x5E0;&#x5D5;&#x5EA; &#x5E9;&#x5D5;&#x5E0;&#x5D5;&#x5EA;:</span></h4>
+<p><a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://netfree.link/cacert/united/x2/root_ca_x2_bundle.crt">https://netfree.link/cacert/united/x2/root_ca_x2_bundle.crt</a>
+</p><p><big><b>&#x5D1;&#x5D3;&#x5D9;&#x5E7;&#x5EA; &#x5EA;&#x5E7;&#x5D9;&#x5E0;&#x5D5;&#x5EA; &#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4;:</b></big><br>
+&#x5DC;&#x5D0;&#x5D7;&#x5E8; &#x5D4;&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4; (&#x5D5;&#x5D4;&#x5E4;&#x5E2;&#x5DC;&#x5EA; &#x5D4;&#x5D3;&#x5E4;&#x5D3;&#x5E4;&#x5DF; &#x5DE;&#x5D7;&#x5D3;&#x5E9;), &#x5D9;&#x5E9; &#x5DC;&#x5D5;&#x5D5;&#x5D3;&#x5D0; &#x5DB;&#x5D9; &#x5D4;&#x5D4;&#x5EA;&#x5E7;&#x5E0;&#x5D4; &#x5D0;&#x5DB;&#x5DF; &#x5D4;&#x5E6;&#x5DC;&#x5D9;&#x5D7;&#x5D4;.<br>
+&#x5E0;&#x5DB;&#x5E0;&#x5E1;&#x5D9;&#x5DD; &#x5DC;&#x5E7;&#x5D9;&#x5E9;&#x5D5;&#x5E8; &#x5D4;&#x5D6;&#x5D4;:<br>
+<a target="_blank" rel="nofollow noreferrer noopener" class="external free" href="https://testnewcert.internal.netfree.link/user/0">https://testnewcert.internal.netfree.link/user/0</a><br>
+&#x5D0;&#x5DD; &#x5DE;&#x5EA;&#x5E7;&#x5D1;&#x5DC;&#x5EA; &#x5E9;&#x5D2;&#x5D9;&#x5D0;&#x5EA; &#x5D0;&#x5D1;&#x5D8;&#x5D7;&#x5D4; (<a target="_blank" rel="nofollow noreferrer noopener" class="external text" href="https://untrusted-root.badssl.com/">&#x5DC;&#x5D3;&#x5D5;&#x5D2;&#x5DE;&#x5D0; &#x5DC;&#x5D7;&#x5E5; &#x5DB;&#x5D0;&#x5DF;</a>), &#x5D4;&#x5E8;&#x5D9; &#x5E9;&#x5D4;&#x5EA;&#x5E2;&#x5D5;&#x5D3;&#x5D4; &#x5DC;&#x5D0; &#x5D4;&#x5D5;&#x5EA;&#x5E7;&#x5E0;&#x5D4; &#x5DB;&#x5E0;&#x5D3;&#x5E8;&#x5E9;.
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20260803180914
+Cache expiry: 86400
+Dynamic content: false
+Complications: []
+CPU time usage: 0.037 seconds
+Real time usage: 0.045 seconds
+Preprocessor visited node count: 127/1000000
+Post‐expand include size: 1814/2097152 bytes
+Template argument size: 292/2097152 bytes
+Highest expansion depth: 5/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 373/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    9.629      1 -total
+ 54.54%    5.252      1 תבנית:אנ
+ 22.97%    2.212      1 תבנית:ניווט
+ 20.52%    1.976      1 תבנית:Bootstrap_alert-danger
+ 20.42%    1.966      1 תבנית:עמוד_באנגלית
+ 16.99%    1.636      1 תבנית:קישור_לתצוגת_קריאה
+-->
+
+<!-- Saved in parser cache with key wiki_main-w_:pcache:idhash:2231-0!canonical and timestamp 20260803180914 and revision id 18244
+ -->
+</div>
+        </div>
+        
+        <br>
+        <br>
+    </div>
+</div>
+
+
+    </body>
+</html>

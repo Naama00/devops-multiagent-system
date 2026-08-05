@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "infra_server": {
+      "command": "python",
+      "args": ["../mcp_servers/infra_server/app/main.py"],
+      "env": {}
+    },
+    "git_server": {
+      "command": "python",
+      "args": ["../mcp_servers/git_server/app/main.py"],
+      "env": {}
+    },
+    "observability": {
+      "command": "python",
+      "args": ["../mcp_servers/observability/app/main.py"],
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,16 @@
+[project]
+name = "orchestrator"
+version = "0.1.0"
+description = "Multi-Agent Orchestrator using MCP"
+dependencies = [
+    "mcp>=1.0.0",
+    "langgraph>=0.2.0",
+    "langchain-core>=0.3.0",
+    "pydantic>=2.0.0",
+    "redis>=5.0.0",
+    "asyncio>=3.4.3"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

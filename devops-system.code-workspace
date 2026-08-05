@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "name": "01 - Orchestrator",
+      "path": "orchestrator"
+    },
+    {
+      "name": "02 - MCP Infra Server",
+      "path": "mcp_servers/infra_server"
+    },
+    {
+      "name": "03 - MCP Git Server",
+      "path": "mcp_servers/git_server"
+    },
+    {
+      "name": "04 - Shared Schemas",
+      "path": "shared"
+    }
+  ],
+  "settings": {
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.formatOnSave": true
+  }
+}

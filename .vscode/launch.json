@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Orchestrator",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/orchestrator/app/main.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/orchestrator"
+    },
+    {
+      "name": "Run Infra MCP Server",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/mcp_servers/infra_server/app/main.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/mcp_servers/infra_server"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Debug Full System (Orchestrator + MCP)",
+      "configurations": ["Run Infra MCP Server", "Run Orchestrator"]
+    }
+  ]
+}
