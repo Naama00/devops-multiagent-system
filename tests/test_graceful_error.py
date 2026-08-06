@@ -16,7 +16,7 @@ def test_workflow_returns_friendly_message_when_llm_fails(monkeypatch):
         def invoke(self, messages):
             raise RuntimeError("quota exceeded")
 
-    monkeypatch.setattr(graph, "ChatGoogleGenerativeAI", FailingLLM)
+    monkeypatch.setattr(graph, "ChatGroq", FailingLLM)
 
     app = graph.build_workflow([])
     result = app.invoke({"messages": [HumanMessage(content="hello")]})

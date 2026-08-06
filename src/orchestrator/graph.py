@@ -1,40 +1,39 @@
 import os
-import httpx
 import logging
+from pathlib import Path
 from typing import List, Optional
+from dotenv import load_dotenv
+
+# Locate .env file dynamically in the project root directory
+project_root = Path(__file__).resolve().parent.parent.parent
+env_file = project_root / ".env"
+load_dotenv(dotenv_path=env_file)
 
 from langchain_core.messages import AIMessage
 from langchain_core.tools import BaseTool
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_groq import ChatGroq
 from langgraph.graph import StateGraph, END
 from langgraph.prebuilt import ToolNode, tools_condition
+from langgraph.checkpoint.memory import MemorySaver
 
 from src.orchestrator.state import AgentState
 
 logger = logging.getLogger("OrchestratorGraph")
 
-# Safely configure SSL certificate path if CA file exists
-CA_CERT_PATH = "netfree-ca.crt"
-if os.path.exists(CA_CERT_PATH):
-    os.environ["SSL_CERT_FILE"] = CA_CERT_PATH
-    os.environ["REQUESTS_CA_BUNDLE"] = CA_CERT_PATH
-    logger.info(f"Configured custom SSL CA certificate from {CA_CERT_PATH}")
-else:
-    # Fallback monkey-patch only for environments requiring SSL bypass
-    _original_init = httpx.Client.__init__
-    def _patched_init(self, *args, **kwargs):
-        kwargs["verify"] = False
-        _original_init(self, *args, **kwargs)
-    httpx.Client.__init__ = _patched_init
-
 
 def build_workflow(mcp_tools: Optional[List[BaseTool]] = None):
     """
-    Builds and compiles the LangGraph state graph orchestrator.
+    Builds and compiles the LangGraph state graph orchestrator using Groq Llama 3.3.
     """
-    llm = ChatGoogleGenerativeAI(
-        model="gemini-2.0-flash",
+    api_key = os.getenv("GROQ_API_KEY")
+    if not api_key:
+        raise ValueError("GROQ_API_KEY is not configured in your .env file!")
+
+    # Initialize Groq LLM model with explicit API key loading
+    llm = ChatGroq(
+        model="llama-3.3-70b-versatile",
         temperature=0,
+        groq_api_key=api_key
     )
 
     if mcp_tools:
@@ -58,8 +57,11 @@ def build_workflow(mcp_tools: Optional[List[BaseTool]] = None):
     # Add orchestrator agent node
     workflow.add_node("agent", call_agent)
 
+    # MemorySaver checkpointer persists graph state for Human-in-the-Loop breakpoints
+    memory = MemorySaver()
+
     if mcp_tools:
-        # Add ToolNode for executing tool calls dynamically
+        # Add ToolNode for executing tools dynamically
         workflow.add_node("tools", ToolNode(mcp_tools))
         
         workflow.set_entry_point("agent")
@@ -69,8 +71,13 @@ def build_workflow(mcp_tools: Optional[List[BaseTool]] = None):
         
         # Return flow back to agent after tool execution
         workflow.add_edge("tools", "agent")
+        
+        # Compile graph with MemorySaver checkpointer and interrupt_before on the "tools" node
+        return workflow.compile(
+            checkpointer=memory,
+            interrupt_before=["tools"]
+        )
     else:
         workflow.set_entry_point("agent")
         workflow.add_edge("agent", END)
-
-    return workflow.compile()
+        return workflow.compile(checkpointer=memory)
